@@ -187,3 +187,26 @@ form textarea{
 	text-align: center;
 	list-style: none;
 }
+
+@media (max-width: 800px){
+	.main-nav ul{
+		grid-template-columns: 1fr;
+	}
+
+	.wrapper{
+		grid-template-columns: 1fr;
+	}
+
+	.boxes{
+		grid-template-columns: 1fr;
+	}
+
+	.box{
+		margin: auto;
+	}
+
+	.footer{
+		grid-template-columns: 1fr;
+	}
+
+}
